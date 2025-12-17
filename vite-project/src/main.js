@@ -1,3 +1,4 @@
+import './style.css'
 async function getData(/*name*/) {
   try {
     // go get data
