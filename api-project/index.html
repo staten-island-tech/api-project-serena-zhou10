@@ -4,12 +4,28 @@
 <head>
   <meta charset="UTF-8" />
   <title>Books</title>
-  <link rel="stylesheet" href="style.css">
+ 
 </head>
 
-<body>
-  <h1>API Response</h1>
-  <div class="api-response"></div>
+<body class="m-5">
+  <header>
+    <h1 class="font-bold underline">Author Books</h1>
+    <p>This page displays the works of R.F. Kuang.</p>
+  </header>
+
+  <form id="search-form">
+    <label for="search-input">Search for a book:</label>
+    <input id="search-input" type="text" placeholder="Enter book title" />
+    <button type="submit">Search</button>
+  </form>
+
+  <main>
+    <div class="api-response"></div>
+  </main>
+
+  <footer class="italic p-6">
+    <p>Data provided by Open Library</p>
+  </footer>
 
   <script type="module" src="src/main.js"></script>
 </body>

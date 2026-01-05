@@ -1,3 +1,4 @@
+import "./style.css"
 const URL = "https://openlibrary.org/authors/OL23919A/works.json";
 
 function inject(item) {
